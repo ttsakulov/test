@@ -13,4 +13,8 @@ public class Main {
             System.out.printf("Все правильно!");
         }
     }
+
+    public static String print(Coffee coffee) {
+        return coffee.getName();
+    }
 }
